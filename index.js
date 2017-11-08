@@ -109,7 +109,7 @@ class NokiaScreen {
 		})
 		.then( () => this.reset() )
 		.then( () => this.set_bias(bias) )
-		//.then( () => this.set_contrast(contrast) );
+		.then( () => this.set_contrast(contrast) );
 	}
 	reset() {
 		// Resets the display
